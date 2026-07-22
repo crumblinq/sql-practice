@@ -5,16 +5,16 @@
 
 |  № | Задача                                                                                | Использовано                                                                    | Сложность |
 | -: | ------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------- | :-------: |
-|  1 | [Метрики заказов по странам](tasks/01-country-order-metrics.md)                       | `GROUP BY`, `COUNT`, `SUM`, `AVG`, `ORDER BY`, `LIMIT`                          |    Easy   |
-|  2 | [Категоризация фильмов по возрастному рейтингу](tasks/02-movie-rating-categories.md)  | `CASE`, `SUM`, `GROUP BY`                                                       |    Easy   |
-|  3 | [Иерархия сотрудников и менеджеров](tasks/03-employee-hierarchy.md)                   | Псевдонимы, `LEFT JOIN`                                                        |    Easy   |
-|  4 | [Фильмы без связанных записей об актёрах*](tasks/04-movies-without-actors.md)         | `LEFT JOIN`, `IS NULL`                                                          |    Easy   |
-|  5 | [Выручка по музыкальным плейлистам](tasks/05-playlist-revenue.md)                     | `INNER JOIN`, `SUM`, `GROUP BY`, `ORDER BY`                                     |   Medium  |
-|  6 | [Статистика по самым длинным фильмам](tasks/06-longest-movies-statistics.md)          | Подзапрос, `MIN`, `MAX`, `AVG`, `GROUP BY`, `LIMIT`                    |   Medium  |
-|  7 | [Среднее количество треков в рок-альбомах](tasks/07-rock-albums.md)                   | `LEFT JOIN`, `LIKE`, `COUNT`, `GROUP BY`, `HAVING`, подзапрос          |   Medium  |
-|  8 | [Средняя стоимость фильмов с несколькими условиями](tasks/08-movie-average-rental.md) | Подзапросы, `IN`, `LEFT JOIN`, `AVG`, `COUNT`, `GROUP BY`, `HAVING`  |   Medium  |
-|  9 | [Сумма месячных средних заказов по странам*](tasks/09-country-monthly-orders.md)      | Подзапрос, `EXTRACT`, `AVG`, `SUM`, `GROUP BY`, `HAVING`, `IN`         |   Medium  |
-| 10 | [Выручка по странам для крупных заказов*](tasks/10-country-large-orders.md)           | Подзапросы, `IN`, `COUNT`, `HAVING`, `MIN`, `MAX`, `AVG`, `GROUP BY` |   Medium  |
+|  1 | [Расчет метрик заказов по странам](tasks/01-country-order-metrics.md)                       | `GROUP BY`, `COUNT`, `SUM`, `AVG`, `ORDER BY`, `LIMIT`                          |    Easy   |
+|  2 | [Группировка фильмов по возрастному рейтингу](tasks/02-movie-rating-categories.md)  | `CASE`, `SUM`, `GROUP BY`                                                       |    Easy   |
+|  3 | [Отображение менеджеров и их подчиненных](tasks/03-employee-hierarchy.md)                   | Псевдонимы, `LEFT JOIN`                                                        |    Easy   |
+|  4 | [Фильмы без связанных записей об актёрах*](tasks/04-movies-without-actors.md)         | `LEFT JOIN` одной таблицы (сама с собой), `IS NULL`                                                          |    Easy   |
+|  5 | [Подсчитать выручку музыкальных плейлистов](tasks/05-playlist-revenue.md)                     | Несколько `INNER JOIN`, `SUM`, `GROUP BY`, `ORDER BY`                                     |   Medium  |
+|  6 | [Анализ самых длинных фильмов](tasks/06-longest-movies-statistics.md)          | Подзапрос, `MIN`, `MAX`, `AVG`, `GROUP BY`, `LIMIT`                    |   Medium  |
+|  7 | [Среднее количество треков в определенных альбомах](tasks/07-rock-albums.md)                   | `LEFT JOIN`, `LIKE`, `COUNT`, `GROUP BY`, `HAVING`, подзапрос          |   Medium  |
+|  8 | [Средняя стоимость фильмов с несколькими условиями](tasks/08-movie-average-rental.md) | Декомпозиция задачи, подзапросы, `IN`, `LEFT JOIN`, `AVG`, `COUNT`, `GROUP BY`, `HAVING`  |   Medium  |
+|  9 | [Подсчитать сумму месячных средних заказов по странам при нескольких условиях*](tasks/09-country-monthly-orders.md)      | Подзапрос, `EXTRACT`, `AVG`, `SUM`, `GROUP BY`, `HAVING`, `IN`         |   Medium  |
+| 10 | [Статистика крупных заказов по странам*](tasks/10-country-large-orders.md)           | Подзапросы, `IN`, `COUNT`, `HAVING`, `MIN`, `MAX`, `AVG`, `GROUP BY` |   Medium  |
 
 
 ## Задачи с условием на английском языке

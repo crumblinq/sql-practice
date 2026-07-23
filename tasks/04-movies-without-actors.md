@@ -2,7 +2,7 @@
 
 # Фильмы без связанных записей об актёрах
 
-- [Схема базы данных](../database-scheme-ru.png)
+- [Схема базы данных](../database-schema-ru.png)
 - [Подробное описание таблиц](../database-description-ru.pdf)
 
 ## Задача

@@ -7,8 +7,8 @@
 | -: | ------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------- | :-------: |
 |  1 | [Расчет метрик заказов по странам](tasks/01-country-order-metrics.md)                       | `GROUP BY`, `COUNT`, `SUM`, `AVG`, `ORDER BY`, `LIMIT`                          |    Easy   |
 |  2 | [Группировка фильмов по возрастному рейтингу](tasks/02-movie-rating-categories.md)  | `CASE`, `SUM`, `GROUP BY`                                                       |    Easy   |
-|  3 | [Отображение менеджеров и их подчиненных](tasks/03-employee-hierarchy.md)                   | Псевдонимы, `LEFT JOIN`                                                        |    Easy   |
-|  4 | [Фильмы без связанных записей об актёрах*](tasks/04-movies-without-actors.md)         | `LEFT JOIN` одной таблицы (сама с собой), `IS NULL`                                                          |    Easy   |
+|  3 | [Отображение менеджеров и их подчиненных](tasks/03-employee-hierarchy.md)                   | Псевдонимы, `LEFT JOIN` одной таблицы (сама с собой)          |    Easy   |
+|  4 | [Фильмы без связанных записей об актёрах](tasks/04-movies-without-actors.md)         | `LEFT JOIN`, `IS NULL`                                                          |    Easy   |
 |  5 | [Подсчитать выручку музыкальных плейлистов](tasks/05-playlist-revenue.md)                     | Несколько `INNER JOIN`, `SUM`, `GROUP BY`, `ORDER BY`                                     |   Medium  |
 |  6 | [Анализ самых длинных фильмов](tasks/06-longest-movies-statistics.md)          | Подзапрос, `MIN`, `MAX`, `AVG`, `GROUP BY`, `LIMIT`                    |   Medium  |
 |  7 | [Среднее количество треков в определенных альбомах](tasks/07-rock-albums.md)                   | `LEFT JOIN`, `LIKE`, `COUNT`, `GROUP BY`, `HAVING`, подзапрос          |   Medium  |
